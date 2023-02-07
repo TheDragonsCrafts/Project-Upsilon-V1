@@ -1,0 +1,44 @@
+{
+  "type": "GenericCrafter",
+  "name": "extractor de Nitrógeno líquido",
+  "description": "este imbuye el criogenico tan rapidamente que se vuelve nitrógeno",
+  "size": 3,
+  "requirements": [
+    {
+      "item": "metaglass",
+      "amount": 400
+    },
+    {
+      "item": "titanium",
+      "amount": 200
+    },
+    {
+      "item": "graphite",
+      "amount": 250
+    },
+    {
+      "item": "silicon",
+      "amount": 130
+    }
+  ],
+  "category": "crafting",
+  "research": "cryofluidmixer",
+  "liquidCapacity": 300,
+  "hasPower": true,
+  "hasLiquids": true,
+  "craftTime": 90,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 4,
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 0.5
+    }
+  },
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5,
+  "outputLiquid": {
+    "liquid": "nitrogen",
+    "amount": 15
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "block",
+  "name": "Muro de Aleación Zubzero Grande",
+  "description": "esta mamadisimo tanto trabajo dara frutos, extremadamente duro gracias a la aleación",
+  "size": 2,
+  "requirements": [
+    {
+      "item": "zero",
+      "amount": 20
+    }
+  ],
+  "category": "defense",
+  "research": "surge-wall-large",
+  "health": 8900,
+  "group": "walls",
+  "priority": "base",
+  "solid": true,
+  "rotate": false,
+  "soildifes": false,
+  "insulated": false,
+  "breakable": true,
+  "destructible": true,
+  "placableOn": false,
+  "hasShadow": false,
+  "buildTime": 4
+}

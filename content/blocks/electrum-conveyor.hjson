@@ -1,0 +1,12 @@
+type: Conveyor
+name: cinta  transportadora Mamada
+description: Example conveyor.
+requirements: [
+  titanium/9
+  copper/9
+  lead/9
+  thorium/9
+]
+category: distribution
+speed: 30
+research: titanium-conveyor
