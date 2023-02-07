@@ -1,0 +1,8 @@
+name: "Project-Upsilon"
+displayName: "[green]project upsilon[]"
+author: DR4G4NS
+description: "Este es el projecto upsilon de mod para mindustry añade nuevas cosas que iras descubriendo"
+version: "0.02"
+minGameVersion: "141.3"
+dependencies: [ ]
+hidden: false
