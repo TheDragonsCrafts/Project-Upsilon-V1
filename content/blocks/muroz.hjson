@@ -1,0 +1,11 @@
+type: Wall
+size: 2
+name: Muro de Aleación Zubzero Grande
+health: 5800
+description:
+buildTime: 4
+category: defense
+requirements: [
+  zero/24
+]
+
