@@ -1,0 +1,38 @@
+type: "GenericCrafter"
+name: "Reactor de Compresión en ZubZero"
+description: "puede Comprimir Nitrogeno y Aleación electrica para hacer Aleación SubZero"
+size: 4
+requirements:
+  - item: "metaglass"
+    amount: 200
+  - item: "graphite"
+    amount: 500
+  - item: "copper"
+    amount: 100
+  - item: "surge-alloy"
+    amount: 100
+category: "crafting"
+research: "graphite-press"
+hasPower: true
+craftTime: 120
+updateEffect: "smeltsmoke"
+consumes:
+  power: 4.9
+  liquid:
+    liquid: "nitrogen"
+    amount: "0.4"
+  items:
+    items:
+      - item: "surge-alloy"
+        amount: 10
+      - item: "titanium"
+        amount: 15
+idleSound: "respawning"
+idleSoundVolume: 0.5
+hasitems: true
+itemCapacity: 100
+craftEffect: "smeltsmoke"
+flameColor: "FF563FCB"
+outputItem:
+  item: "zero"
+  amount: 5
