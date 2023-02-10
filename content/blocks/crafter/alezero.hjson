@@ -18,12 +18,10 @@ consumes:
   liquid:
     liquid: "nitrogen"
     amount: "0.4"
-  items:
-    items:
-      requirements: [
+    requirements: [
         surge-alloy/10
         titanium/15
-        [
+    [
 idleSound: "respawning"
 idleSoundVolume: 0.5
 hasitems: true
@@ -34,3 +32,4 @@ outputItem:
   item: "zero"
   amount: 5
 
+        
